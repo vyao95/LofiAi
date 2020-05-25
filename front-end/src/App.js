@@ -61,6 +61,9 @@ class App extends Component {
   render(){
     return(
       <div>
+      <div className="App-mobile">
+        <p>Sorry, this website was meant to be viewed on a laptop or desktop computer.</p>
+      </div>
       <Parallax className="App" ref={ref => (this.parallax = ref)} pages={4}>
 
         {/* Landing page background*/}
